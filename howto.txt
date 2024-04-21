@@ -1,0 +1,26 @@
+npm init 
+
+npm init -y
+
+npm install sass
+
+go to scripts : 
+
+"sass:build"    : "sass  scss:css" 
+name     compile sass scss to css folder 
+
+sass --no-source-map scss:css ->  to have no map file 
+
+ "sass:watch": "sass --no-source-map --watch scss:css" -> to make it watch 
+
+npm install bootstrap
+
+
+npm run sass:watch
+npm run sass:build
+
+
+npm i @fortawesome/fontawesome-free
+
+
+add webfonts in root folder
